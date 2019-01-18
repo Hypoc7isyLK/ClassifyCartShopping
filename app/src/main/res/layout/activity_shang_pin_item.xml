@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="81dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:id="@+id/shangpintupian"/>
+
+        <TextView
+            android:id="@+id/shangpinname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/shangpintupian"
+            android:text="拉格结束了干净利索"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/shangpinjiage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="54dp"
+            android:layout_toEndOf="@+id/shangpintupian"
+            android:text="￥1888.00"
+            android:textColor="#ff0000"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
